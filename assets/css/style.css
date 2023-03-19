@@ -115,7 +115,12 @@
     color: brown;
   }
 
-  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #5945f1;
+    color: white;
+  }
 
   @media (min-width: 992px) {
     .navbar {
@@ -167,21 +172,25 @@
     border-color: #9789fa;
 }
 
-.linl-custom {
+.link-custom {
     font-weight: 700;
     position: relative;
 }
 
-.linl-custom {
+.link-custom {
     content: "";
     width: 0%;
     height: 2px;
     background-color: #5945f1;
-    position: absolute;
     left: 0;
     top: 110%;
     transition: all 0.4s;
 }
-.linl-custom:hover::after {
+.link-custom:hover::after {
     width: 100%;
+}
+
+.works {
+    font-size: 25px;
+    color: #baf145;
 }
