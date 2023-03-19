@@ -1,8 +1,64 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600;1,700&family=Open+Sans:ital,wght@1,300&family=Rubik+Bubbles&display=swap');
   body {
-    background-color: aqua;
-    color: aquamarine;
+    background-color: rgb(17, 220, 129);
+    color: rgb(29, 232, 19);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-size: 15px;
+
   }
+
+  h1,h2,h3,h4,h5,h6 {
+    color: burlywood;
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+    color: chocolate;
+    transition: all 0.4s ease;
+  }
+
+  a:hover {
+    color: beige;
+  }
+
+  img {
+    width: 100%;
+  }
+  .navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin-left: 25px;
+    text-align: left;
+  }
+
+  .navbar .nav-link:hover {
+    color: brown;
+  }
+
+  @media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: auto;
+        background: linear-gradient(#033f47, #033f47);
+        color: aliceblue;
+        background-size: cover;
+        background-position: center;
+        font-size: 22px;
+        font-weight: bolder;
+        
+    }
+
+    .navbar-brand img {
+        border: 8px solid hsl(67, 86%, 46%);
+    }
+
+    .navbar .nav-link {
+        display: inline-block;
+        margin-left: 25px;
+        text-align: left;
+  }
+}
