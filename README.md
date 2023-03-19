@@ -23,7 +23,7 @@
   ![login](https://github.com/alexsosei/Bootstrap-portfolio/blob/main/assets/images/hero.png)
   ![login](https://github.com/alexsosei/Bootstrap-portfolio/blob/main/assets/images/nav.png)
   ![login](https://github.com/alexsosei/Bootstrap-portfolio/blob/main/assets/images/about.png)
-  ![login]
+  ![login](https://github.com/alexsosei/Bootstrap-portfolio/blob/main/assets/images/works.png)
   ## License
   This project is licensed under the undefined license.
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
