@@ -21,6 +21,7 @@
   ## Usage 
   In order to use this app, the command line should be presented in a way that is systematic and efficient. A video demonstration is specified below;
   ![login](https://github.com/alexsosei/Bootstrap-portfolio/blob/main/assets/images/hero.png)
+  ![login](https://github.com/alexsosei/Bootstrap-portfolio/blob/main/assets/images/nav.png)
   ![login](
   ## License
   This project is licensed under the undefined license.
