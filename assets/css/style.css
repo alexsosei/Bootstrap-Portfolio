@@ -1,21 +1,21 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600;1,700&family=Open+Sans:ital,wght@1,300&family=Rubik+Bubbles&display=swap');
   body {
-    background-color: rgb(17, 220, 129);
-    color: rgb(29, 232, 19);
+    background-color: rgb(99, 129, 137);
+    color: #d3dce2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 
   }
 
   h1,h2,h3,h4,h5,h6 {
-    color: burlywood;
+    color: rgb(210, 220, 17);
     font-weight: 700;
   }
 
   a {
     text-decoration: none;
-    color: chocolate;
+    color: rgb(226, 223, 221);
     transition: all 0.4s ease;
   }
 
@@ -26,18 +26,56 @@
   img {
     width: 100%;
   }
+
+  .text-brand {
+    color: rgb(104, 58, 212);
+  }
+
+  .bg-base {
+    background-color: #033f47;
+  }
+
+  .full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid(#d3dce2);
+  }
   .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    display: inline-block;
-    margin-left: 25px;
-    text-align: left;
+    
+    
+  }
+
+  .shadow-effect {
+    transition: all 0.5s;
+  }
+  .shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 #9789fa;
+  }
+
+  .iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #ebfa89;
+    color: burlywood;
   }
 
   .navbar .nav-link:hover {
     color: brown;
   }
+
+  
 
   @media (min-width: 992px) {
     .navbar {
@@ -46,10 +84,14 @@
         background: linear-gradient(#033f47, #033f47);
         color: aliceblue;
         background-size: cover;
-        background-position: center;
+        background-position: left;
         font-size: 22px;
         font-weight: bolder;
         
+    }
+
+    .navbar-brand {
+        padding-left: inherit;
     }
 
     .navbar-brand img {
@@ -61,4 +103,45 @@
         margin-left: 25px;
         text-align: left;
   }
+  #content-wrapper {
+    padding-left: inherit;
+  }
+}
+
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+
+}
+
+.btn-brand {
+    background-color: #5945f1;
+    border-color: #5945f1;
+    color: #9789fa;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: #5945f1;
+    color: #9789fa;
+    border-color: #9789fa;
+}
+
+.linl-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.linl-custom {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #5945f1;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+.linl-custom:hover::after {
+    width: 100%;
 }
